@@ -37,7 +37,7 @@ git clone https://github.com/MutedByte/SpeedQuizzing-Exporter.git
 cd SpeedQuizzing-Exporter
 ```
 
-2. Set your SpeedQuizzing session cookie in `scraper.py`:
+2. Set your SpeedQuizzing session cookie in `exporter.py`:
 
 ```python
 COOKIES = {
@@ -48,7 +48,7 @@ COOKIES = {
 3. Run the exporter:
 
 ```bash
-python scraper.py
+python exporter.py
 ```
 
 4. The data will be saved in `all_quizpacks.csv`.
